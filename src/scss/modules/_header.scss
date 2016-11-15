@@ -1,0 +1,12 @@
+.header {
+	background: linear-gradient(white, lighten-color(map-get($colors, first), 70%));
+	width: 100%;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+.big-title {
+	font-size: 5.5rem;
+	text-align: center;
+	color: map-get($colors, second);
+}

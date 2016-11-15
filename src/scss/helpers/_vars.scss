@@ -1,0 +1,32 @@
+$colors: (
+	first         : #54D0ED,
+	second        : #0C273D,
+	third         : #1788B2,
+	four 	      : #D4F4FF,
+	text          : #ffffff,
+	text-color    : #54D0ED,
+	text-dark     : #555555,
+	bg-shadow     : rgba(0,0,0,0.6),
+
+	twitter	      : #55acee,
+	facebook      : #3b5998
+);
+//
+// fonts:
+//
+$fonts: (
+    'type-default'  : 'News Cycle',
+    'type-optional' : sans-serif,
+    'size-big'      : 18px,
+    'size-small'    : 16px,
+    'weight-bold'   : 500,
+    'weight-normal' : 400
+);
+
+//gradient
+@mixin linear-gradient($direction, $color-stops...) {
+  background: nth(nth($color-stops, 1), 1);
+  background: linear-gradient($direction, $color-stops);
+}
+
+

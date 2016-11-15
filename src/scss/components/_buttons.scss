@@ -1,0 +1,62 @@
+.button {
+	background: none;
+	border-radius: 100px;
+	border: map-get($colors, first) 2px solid;
+	color: map-get($colors, text-color);
+	height: 50px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	transition: 0.08s ease-in;
+	display: block;
+	position: relative;
+	outline: 0;
+  	overflow:hidden;
+	
+
+	&:before {
+		content: "";
+  		position: absolute;
+ 		background:lighten-color(map-get($colors, first), 20%);
+  		left: 0;
+  		right: 0;
+  		bottom: 0;
+  		top: 100%;
+ 		z-index: -1;
+  		transition: top 0.09s ease-in;	
+
+	}
+
+	&:hover {
+		color: white;
+		top: 0;
+
+	}
+}
+
+.button:before:hover {
+		top: 0;
+	}
+
+.button-small {
+	@include sizes(50px);
+	padding: 10px;
+	border: white 2px solid;
+}
+
+
+.fill:before {
+  content: "";
+  position: absolute;
+  background: #383736;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.fill:hover:before {
+  top: 0;
+}
+

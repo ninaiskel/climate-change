@@ -1,0 +1,10 @@
+.counter {
+	background: linear-gradient(map-get($colors, first), map-get($colors, second));
+
+}
+
+.counter-length {
+	font-size: 1rem;
+	padding-left: 10px;
+	font-weight: 400;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1439px" height="689px" viewBox="0 0 1439 689" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>mar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#54D0ED" offset="0%"></stop>
+            <stop stop-color="#0C273D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Clima" transform="translate(-1.000000, -472.000000)" fill="url(#linearGradient-1)">
+            <g id="background-top-copy" transform="translate(1.000000, 1.000000)">
+                <path d="M763.12685,471 C763.12685,471 697.7682,493.481702 634.95515,471 C634.95515,471 559.4104,492.03234 494.0499,471 C494.0499,471 431.22205,504.359027 381.29795,473.901884 C381.29795,473.901884 323.57795,494.207173 261.61405,473.901884 C261.61405,473.901884 196.2554,496.382006 133.44235,473.901884 C133.44235,473.901884 63.5105,493.363161 0,476.105167 L0,1160 L1480,1160 L1480,480.715623 C1463.10025,485.09848 1426.7755,490.671489 1384.44935,473.901884 C1384.44935,473.901884 1326.72935,494.207173 1264.76545,473.901884 C1264.76545,473.901884 1199.4068,496.382006 1136.59375,473.901884 C1136.59375,473.901884 1061.04715,494.932644 995.6885,473.901884 C995.6885,473.901884 941.38175,494.207173 882.81075,471 C882.81075,471 825.0926,491.306869 763.12685,471 Z" id="mar"></path>
+            </g>
+        </g>
+    </g>
+</svg>

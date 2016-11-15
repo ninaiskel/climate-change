@@ -1,0 +1,25 @@
+{
+  "name": "climate",
+  "version": "1.0.0",
+  "description": "climate change",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jessica Aristimuño",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "browser-sync": "^2.17.5",
+    "cssnano": "^3.8.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.10",
+    "mini.scss": "^1.4.4",
+    "susy": "^2.2.12"
+  }
+}
