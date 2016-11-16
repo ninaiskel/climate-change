@@ -1,6 +1,11 @@
 
 .title {
-	padding: 20px 0;
+	padding-top: 20px;
+
+	@include breakpoint('medium-small') {
+		padding-top: 10px;
+
+	}
 
 	.big-title {
 		color: map-get($colors, second);
@@ -9,14 +14,21 @@
 		line-height: 60px;
 		position: relative;
 		z-index: 1;
-		top: 30px;
+		top: 10px;
 
-		@include breakpoint('>=small<=medium') {
-			font-size: 4rem;
+		@include breakpoint('medium') {
+			font-size: 5rem;
+		}
+
+		@include breakpoint('medium-small') {
+			font-size: 3.9rem;
+			top: 20px;
 		}
 
 		@include breakpoint('small') {
-			text-align: left;	
+			text-align: left;
+			font-size: 4.5rem;
+			top: 18px;
 		}
 	}
 }

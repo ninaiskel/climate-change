@@ -29,4 +29,14 @@ $fonts: (
   background: linear-gradient($direction, $color-stops);
 }
 
+//others breakpoints 
+$new-breakpoint: (
+	'medium-small'    : "(min-width: 600px) and (max-width: 750px)",
+	'small-small'     : "(min-width: 240px) and (max-width: 420px)"
+) !default;
+
+$breakpoints: map-merge($breakpoints, $new-breakpoint);
+
+
+
 
