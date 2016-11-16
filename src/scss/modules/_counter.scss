@@ -1,5 +1,5 @@
 .counter {
-	background: linear-gradient(map-get($colors, first), map-get($colors, second));
+	background: linear-gradient(map-get($colors, third), map-get($colors, second));
 }
 
 .counter-title {

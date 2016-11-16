@@ -1,4 +1,22 @@
 
 .title {
 	padding: 20px 0;
+
+	.big-title {
+		color: map-get($colors, second);
+		font-size: 5.5rem;
+		text-align: center;
+		line-height: 60px;
+		position: relative;
+		z-index: 1;
+		top: 30px;
+
+		@include breakpoint('>=small<=medium') {
+			font-size: 4rem;
+		}
+
+		@include breakpoint('small') {
+			text-align: left;	
+		}
+	}
 }

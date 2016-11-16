@@ -1,0 +1,14 @@
+.main-title {
+	background: linear-gradient(white, lighten-color(map-get($colors, first), 70%));
+}
+
+.background-svg {
+	width: 100%;
+	z-index: 2;
+	position: relative;
+	top: 8px;
+}
+
+.back-wave {
+	width: 100%;
+}
