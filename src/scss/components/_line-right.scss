@@ -3,5 +3,17 @@
 	float: left;
 	height: 60px;
 	background: map-get($colors, first);
-	margin: 14px 10px 14px 0;
+	margin: 20px 10px 0px 0;
+
+	@include breakpoint('>=small<=medium') {
+		height: 50px;
+		margin-top: 15px;
+	}
+
+	@include breakpoint('small') {
+		height: 60px;
+	}
+
+
+
 }

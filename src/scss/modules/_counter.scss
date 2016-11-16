@@ -1,10 +1,16 @@
 .counter {
 	background: linear-gradient(map-get($colors, first), map-get($colors, second));
-
 }
 
+.counter-title {
+
+	@include breakpoint('small') {
+		font-size: 4rem;
+	}
+
+}
 .counter-length {
 	font-size: 1rem;
-	padding-left: 10px;
 	font-weight: 400;
+	padding-left: 10px;	
 }

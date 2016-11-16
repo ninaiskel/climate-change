@@ -3,25 +3,33 @@
 	border-radius: 100px;
 	border: map-get($colors, first) 2px solid;
 	color: map-get($colors, text-color);
+	display: block;
 	height: 50px;
+	outline: 0;
 	padding: 10px 20px;
+	position: relative;
 	text-transform: uppercase;
 	transition: 0.08s ease-in;
-	display: block;
-	position: relative;
-	outline: 0;
   	overflow:hidden;
-	
+
+  	@include breakpoint('medium') {
+		padding: 10px 16px;
+  	}
+  	
+  	@include breakpoint('small') {
+		height: 45px;
+		padding: 8px 12px;
+	}
 
 	&:before {
 		content: "";
-  		position: absolute;
  		background:lighten-color(map-get($colors, first), 20%);
-  		left: 0;
-  		right: 0;
-  		bottom: 0;
-  		top: 100%;
  		z-index: -1;
+  		bottom: 0;
+  		left: 0;
+  		position: absolute;
+  		right: 0;
+  		top: 100%;
   		transition: top 0.09s ease-in;	
 
 	}
@@ -29,13 +37,12 @@
 	&:hover {
 		color: white;
 		top: 0;
-
 	}
 }
 
 .button:before:hover {
-		top: 0;
-	}
+	top: 0;
+}
 
 .button-small {
 	@include sizes(50px);
