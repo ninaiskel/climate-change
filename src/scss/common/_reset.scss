@@ -18,15 +18,14 @@ h1, h2, h3, h4, h5 {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: white;
-	margin: 0;
-
 }
 
 h1 {
     font-size: 4rem;
+    margin: 0;
 
     @include breakpoint('medium') {
-		font-size: 3.8rem;
+		font-size: 3.7rem;
 	}
 
 	@include breakpoint('small') {
@@ -34,28 +33,15 @@ h1 {
 	}
 }
 
-h2 {
-    font-size: 3rem;
-
-    @include breakpoint('medium') {
-		font-size: 2.8rem;
-	}
-
-	@include breakpoint('small') {
-		font-size: 2.4rem;
-	}
+ul {
+	padding: 0;
 }
 
-h3 {
-    font-size: 3rem;
+li {
+	list-style: none;
 }
 
-h4 {
-    font-size: 2rem;
+p {
+	margin: 0;
 }
-
-h5 {
-    font-size: 1.1rem;
-}
-
 

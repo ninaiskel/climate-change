@@ -1,0 +1,32 @@
+.flex-grid {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+
+    @include breakpoint('xlarge') {
+        max-width: 1500px;
+    }
+
+    @include breakpoint('small=>') {
+    	display: block;
+    	padding: 0 20px;
+  	}
+}
+
+.col {
+    box-sizing: border-box;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.col-full {
+    width: 100%;
+    margin: 0 20px;
+}
+
+.col-left {
+    flex-basis: 50%;
+    margin: 0 20px;
+}
+

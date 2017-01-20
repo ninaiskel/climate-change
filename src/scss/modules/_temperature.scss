@@ -1,0 +1,12 @@
+.temperature {
+	color: map-get($colors, text-dark);
+}
+
+.wrap-statics {
+	display: flex;
+}
+
+.list-statics {
+	flex: 1;
+	margin-left: 10px;
+}

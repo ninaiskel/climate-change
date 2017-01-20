@@ -31,7 +31,8 @@ $fonts: (
 
 //others breakpoints 
 $new-breakpoint: (
-	'medium-small'    : "(min-width: 600px) and (max-width: 750px)",
+	'small=>'         : "(min-width: 240px) and (max-width: 720px)",
+	'medium-small'    : "(min-width: 600px) and (max-width: 720px)",
 	'small-small'     : "(min-width: 240px) and (max-width: 420px)"
 ) !default;
 
