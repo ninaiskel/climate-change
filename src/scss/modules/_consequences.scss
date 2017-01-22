@@ -1,5 +1,7 @@
 .consequences {
 	background: linear-gradient(map-get($colors, second), lighten-color(map-get($colors, second), 10%));
+	padding-bottom: 0;
+	
 	.title {
 		margin-bottom: 15px;
 	}
@@ -8,3 +10,9 @@
 .description {
 	margin-bottom: 20px;
 }
+
+.building {
+	bottom: -90px;
+}
+
+
