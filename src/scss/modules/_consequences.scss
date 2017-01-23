@@ -12,7 +12,11 @@
 }
 
 .building {
-	bottom: -90px;
+	bottom: -100px;
+
+	@include breakpoint('xlarge') {
+		bottom: -140px;
+	}
 }
 
 
