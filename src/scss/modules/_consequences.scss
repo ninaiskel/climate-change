@@ -1,6 +1,7 @@
 .consequences {
 	background: linear-gradient(map-get($colors, second), lighten-color(map-get($colors, second), 10%));
 	padding-bottom: 0;
+	padding-top: 60px;
 	
 	.title {
 		margin-bottom: 15px;

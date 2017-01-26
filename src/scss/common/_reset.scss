@@ -18,11 +18,11 @@ h1, h2, h3, h4, h5 {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: white;
+	margin: 0;
 }
 
 h1 {
     font-size: 4rem;
-    margin: 0;
 
     @include breakpoint('medium') {
 		font-size: 3.7rem;

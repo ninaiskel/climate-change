@@ -1,0 +1,34 @@
+.info-links {
+	background: map-get($colors, third);
+	
+}
+
+.links {
+	margin-top: 40px;
+
+	&-list {
+		margin-top: 10px;
+
+		a {
+			text-decoration: underline;
+			transition: all ease 0.8s;
+			
+			&:hover {
+				color: map-get($colors, first);
+			}
+		}
+	}
+}
+
+
+.drop {
+	margin-right: 10px;
+
+	img {
+		width: 12px;
+	}
+}
+
+.global {
+	width: 60%;
+}
