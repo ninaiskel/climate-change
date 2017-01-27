@@ -1,0 +1,10 @@
+.land-background {
+	background: map-get($colors, third);
+}
+
+
+.land-wood {
+	width: 100%;
+	position: relative;
+	bottom: -7px;
+}

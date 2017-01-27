@@ -1,0 +1,16 @@
+.footer {
+	background: linear-gradient(map-get($colors, five), lighten-color(map-get($colors, five), 10%));
+	text-align: center;
+
+	.title {
+		padding: 60px;
+	}
+}
+
+.share-link {
+	margin: 0 10px;
+}
+
+.copyright {
+	margin: 50px 0;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Clima" transform="translate(-824.000000, -6437.000000)">
+            <g id="footer" transform="translate(580.000000, 6438.000000)">
+                <g id="button-up" transform="translate(206.000000, 0.000000)">
+                    <g id="up" transform="translate(39.000000, 0.000000)">
+                        <ellipse id="Oval" stroke="#FFFFFF" stroke-width="2" cx="15" cy="15" rx="15" ry="15"></ellipse>
+                        <path d="M15.0035238,22 C15.2431412,22 15.4898062,21.9122939 15.673043,21.7301349 L21.719859,15.9415292 C22.0933803,15.583958 22.0933803,15.0104948 21.719859,14.6529235 C21.3463378,14.2953523 20.7472942,14.2953523 20.373773,14.6529235 L15.9549459,18.8898051 L15.9549459,7.9107946 C15.9549459,7.4047976 15.5320916,7 15.0035238,7 C14.474956,7 14.0521017,7.4047976 14.0521017,7.9107946 L14.0521017,18.8898051 L9.62622703,14.6529235 C9.25270576,14.2953523 8.65366222,14.2953523 8.28014095,14.6529235 C7.90661968,15.0104948 7.90661968,15.583958 8.28014095,15.9415292 L14.3340045,21.7301349 C14.5172414,21.9055472 14.7639064,22 15.0035238,22 Z" id="Shape" fill="#FFFFFF" transform="translate(15.000000, 14.500000) rotate(-180.000000) translate(-15.000000, -14.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
