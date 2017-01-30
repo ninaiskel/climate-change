@@ -3,11 +3,27 @@
 }
 
 .list-factors {
-	margin: 40px 0;
+	margin: 50px 0;
+
+	@include breakpoint('xlarge') {
+		margin: 60px 0;
+	}
 }
 
 .wave-small {
 	width: 330px;
 	height: auto;
+	margin-bottom: 50px;
+
+	@include breakpoint('medium') {
+		margin-bottom: 90px;
+	}
 }
+
+.bubbles {
+	position: absolute;
+	top: 300px;
+	right: 0;
+}
+
 

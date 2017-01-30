@@ -8,6 +8,10 @@
 	}
 }
 
+.wrap-consecuences {
+	margin: 80px 0;
+}
+
 .description {
 	margin-bottom: 20px;
 }
@@ -18,6 +22,26 @@
 	@include breakpoint('xlarge') {
 		bottom: -140px;
 	}
+
+	@include breakpoint('medium') {
+		bottom: -50px;
+	}
+
+	@include breakpoint('small') {
+		display: none;
+	}
 }
+
+.building-mobile {
+	display: none;
+
+	@include breakpoint('small') {
+		display: block;
+		bottom: -50px;
+	}
+}
+
+
+
 
 

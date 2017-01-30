@@ -1,0 +1,54 @@
+// animation
+
+.ola {
+	transform: translate(0,0);
+	position: relative;
+}
+
+.ola-1 {
+	animation: ola-1 1.6s linear infinite;
+}
+
+.ola-2 {
+	animation: ola-2 2.2s linear infinite;
+}
+
+.ola-3 {
+	animation: ola-3 2.4s linear infinite;
+}
+
+.ola-4 {
+	animation: ola-4 1.8s linear infinite;
+}
+  
+@keyframes ola-1 {
+	50% {
+		transform: translateY(-2px); 
+	}
+}
+
+@keyframes ola-2 {
+	50% {
+		transform: translateY(1px); 
+	}
+}
+
+@keyframes ola-3 {
+	30% {
+		transform: translate(-1px, 1px); 
+	}
+
+	75% {
+		transform: translate(1px, -1px); 
+	}
+
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
+
+@keyframes ola-4 {
+	50% {
+		transform: translateY(-2px); 
+	}
+}

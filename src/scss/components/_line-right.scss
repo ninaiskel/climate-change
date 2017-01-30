@@ -3,20 +3,52 @@
 	float: left;
 	height: 60px;
 	background: map-get($colors, first);
-	margin: 5px 10px 0px 0;
+	margin: 2px 10px 60px 0;
+
 
 	@include breakpoint('>=small<=medium') {
 		height: 50px;
-		margin-top: 15px;
 	}
 
 	@include breakpoint('small') {
 		height: 60px;
 	}
-
 }
 
 .line-counter {
 	margin: 20px 10px 0px 0;
+}
+
+.line-small {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+	height: 26px;
+	margin-bottom: 0;
+}
+
+.line-big {
+	margin-bottom: 120px;
+	margin-top: 10px;
+
+	@include breakpoint('xlarge') {
+		margin-bottom: 80px;
+	}
+
+	@include breakpoint('>=small<=medium') {
+		margin-bottom: 180px;
+	}
+}
+
+.line-medium {
+	margin-bottom: 30px;
+
+	@include breakpoint('>=small<=medium') {
+		height: 30px;
+	}
+
+	@include breakpoint('small') {
+		margin-bottom: 20px;
+	}
 }
 

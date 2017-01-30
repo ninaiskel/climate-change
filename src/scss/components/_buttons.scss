@@ -2,7 +2,7 @@
 	background: none;
 	border-radius: 100px;
 	border: map-get($colors, first) 2px solid;
-	color: map-get($colors, text-color);
+	color: map-get($colors, first);
 	display: block;
 	height: 50px;
 	outline: 0;
@@ -22,27 +22,25 @@
 	}
 
 	&:before {
-		content: "";
- 		background:lighten-color(map-get($colors, first), 20%);
- 		z-index: -1;
-  		bottom: 0;
-  		left: 0;
-  		position: absolute;
-  		right: 0;
-  		top: 100%;
-  		transition: top 0.09s ease-in;	
+		background: map-get($colors, first);
+	  	content: '';
+	  	position: absolute;
+	  	z-index: -1;
+	}
 
+	&:after {
+		transition: all 0.3s;
+		background: map-get($colors, first);
+	  	content: '';
+	  	position: absolute;
+	  	z-index: -1;
 	}
 
 	&:hover {
 		color: white;
-		top: 0;
 	}
 }
 
-.button:before:hover {
-	top: 0;
-}
 
 .button-small {
 	@include sizes(50px);
@@ -51,19 +49,4 @@
 }
 
 
-.fill:before {
-  content: "";
-  position: absolute;
-  background: #383736;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 100%;
-  z-index: -1;
-  -webkit-transition: top 0.09s ease-in;
-}
-
-.fill:hover:before {
-  top: 0;
-}
 

@@ -4,8 +4,7 @@
 }
 
 .counter-title {
-
-	@include breakpoint('small') {
+	@include breakpoint('small=>') {
 		font-size: 4rem;
 	}
 }
@@ -14,4 +13,10 @@
 	font-size: 1rem;
 	font-weight: 400;
 	padding-left: 10px;	
+}
+
+.counter-list {
+	@include breakpoint('small=>') {
+		margin-bottom: 20px;
+	}
 }

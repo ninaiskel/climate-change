@@ -1,0 +1,10 @@
+.one-ice {
+	animation: one-ice 1.6s linear infinite;
+	transform: translate(0,0); 
+}
+
+@keyframes one-ice {
+	50% {
+		transform: translateX(-5px); 
+	}
+}

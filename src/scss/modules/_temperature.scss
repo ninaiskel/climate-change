@@ -2,11 +2,40 @@
 	color: map-get($colors, text-dark);
 }
 
-.wrap-statics {
-	display: flex;
-}
 
 .list-statics {
-	flex: 1;
-	margin-left: 10px;
+	padding: 130px 0 50px;
+
+	@include breakpoint('small=>') {
+		padding: 40px 0 0;
+
+	}
 }
+
+.img-ice {
+	bottom: -20px;
+}
+
+.img-ice-big {
+	bottom: -50px;
+
+	@include breakpoint('medium') {
+		bottom: -35px;
+	}
+
+	@include breakpoint('small') {
+		display: none;
+	}
+}
+
+.img-ice-big-mobile {
+	display: none;
+
+	@include breakpoint('small') {
+		display: block;
+		bottom: -16px;
+	}
+}
+
+
+

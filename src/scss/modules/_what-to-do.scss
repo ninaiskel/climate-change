@@ -1,6 +1,7 @@
 .what-to-do {
 	background: linear-gradient(map-get($colors, second), map-get($colors, third));
 	
+	
 	&-title {
 		margin-top: 0;
 	}
@@ -27,13 +28,6 @@
 	@include breakpoint('xlarge') {
 		top: -140px;
 	}
-}
-
-.line-small {
-	display: inline-block;
-	vertical-align: middle;
-	float: none;
-	height: 26px;
 }
 
 .wrap-img-item {
