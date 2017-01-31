@@ -1,0 +1,40 @@
+.flood {
+	width: 320px;
+
+	@include breakpoint('small-big') {
+		margin:20px;
+	}
+}
+
+.house-flood {
+	transform: translateY(20px);
+	animation: house-flood 3s linear infinite;
+}
+
+@keyframes house-flood {
+	50% {
+		transform: translateY(10px); 
+	}
+}
+
+.tree-flood {
+	transform: translate(0,0);
+	animation: tree-flood 2s linear infinite;
+}
+
+@keyframes tree-flood {
+	50% {
+		transform: translateX(6px); 
+	}
+}
+
+.house {
+	transform: translateX(0px);
+	animation: house 2.6s linear infinite;
+}
+
+@keyframes house {
+	50% {
+		transform: translateX(8px); 
+	}
+}

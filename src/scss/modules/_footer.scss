@@ -2,8 +2,13 @@
 	background: linear-gradient(map-get($colors, five), lighten-color(map-get($colors, five), 10%));
 	text-align: center;
 
+
 	.title {
-		padding: 60px;
+		padding: 60px 0;
+
+		@include breakpoint('small') {
+			padding: 40px 0 20px;
+		} 
 	}
 }
 
@@ -18,11 +23,16 @@
 		display: inline-block;
 		margin-right: 20px;
 	}
+
+	@include breakpoint('small') {
+		padding: 30px 0;
+	} 
 }
 
 .link-web {
 	text-decoration: underline;
 }
+
 .btn-up {
 	padding-left: 6px;
 	vertical-align: middle;

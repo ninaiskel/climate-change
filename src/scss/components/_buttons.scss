@@ -9,7 +9,7 @@
 	padding: 10px 20px;
 	position: relative;
 	text-transform: uppercase;
-	transition: 0.08s ease-in;
+	transition: all 0.08s linear;
   	overflow:hidden;
 
   	@include breakpoint('medium') {
@@ -17,29 +17,55 @@
   	}
   	
   	@include breakpoint('small') {
-		height: 45px;
-		padding: 8px 12px;
+		height: 30px;
+		padding: 0;
+		border: none;
+		border-radius: 0;
 	}
+
+	span {
+		z-index: 1;
+		position: relative;
+	}
+	
 
 	&:before {
-		background: map-get($colors, first);
-	  	content: '';
-	  	position: absolute;
-	  	z-index: -1;
+		border-radius:100px;
+		content: "";
+	    position: absolute;
+	    z-index: 0;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    display: block;
+	    background: map-get($colors,first);
+	    transform: translateY(30px) scale(0);
+	    transition-duration: 0.3s;
+	    transition-timing-function: ease-out; 
 	}
 
-	&:after {
-		transition: all 0.3s;
-		background: map-get($colors, first);
-	  	content: '';
-	  	position: absolute;
-	  	z-index: -1;
-	}
-
-	&:hover {
+	&:active {
 		color: white;
+		border-color: white;
+
+		@include breakpoint('small') {
+			border-bottom: map-get($colors, first) 2px solid;
+			color: map-get($colors, first);
+			border-radius: 0;
+		}
+
+		&:before {
+			transform:translateY(0) scale(1);
+
+			@include breakpoint('small') {
+				transform:translateY(0) scale(0);
+
+			}
+		}
 	}
 }
+
 
 
 .button-small {

@@ -32,12 +32,13 @@ $fonts: (
 
 //others breakpoints 
 $new-breakpoint: (
-	'small=>'         : "(min-width: 240px) and (max-width: 720px)",
+	'small-big'       : "(min-width: 240px) and (max-width: 720px)",
 	'medium-small'    : "(min-width: 600px) and (max-width: 720px)",
 	'small-small'     : "(min-width: 240px) and (max-width: 420px)"
 ) !default;
 
 $breakpoints: map-merge($breakpoints, $new-breakpoint);
+
 
 
 

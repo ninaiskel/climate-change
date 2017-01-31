@@ -18,6 +18,10 @@
 	@include breakpoint('medium') {
 		margin-bottom: 90px;
 	}
+
+	@include breakpoint('small-big') {
+		width: 300px;
+	}
 }
 
 .bubbles {

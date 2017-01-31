@@ -6,7 +6,7 @@
 .list-statics {
 	padding: 130px 0 50px;
 
-	@include breakpoint('small=>') {
+	@include breakpoint('small-big') {
 		padding: 40px 0 0;
 
 	}

@@ -8,7 +8,7 @@
         max-width: 1500px;
     }
 
-    @include breakpoint('small=>') {
+    @include breakpoint('small-big') {
     	display: block;
     	padding: 0 20px;
   	}
@@ -18,15 +18,19 @@
     box-sizing: border-box;
     flex: 1;
     margin: 0 20px;
+
+    @include breakpoint('small-big') {
+        margin: 0 0px;
+    }
 }
 
 .col-full {
     width: 100%;
     margin: 0 20px;
+
+    @include breakpoint('small-big') {
+        margin: 0 0px;
+    }
 }
 
-.col-left {
-    flex-basis:50%;
-    margin: 0 20px;
-}
 
