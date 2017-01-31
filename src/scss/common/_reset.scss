@@ -2,10 +2,10 @@ body {
 	font-family: 'News Cycle', sans-serif;
 	color: map-get($colors, text);
 	font-size: 18px;
+	overflow-x: hidden;
 
-	@include breakpoint('small') {
+	@include breakpoint('small-big') {
 		font-size: 16px;
-
 	}
 
 	a {

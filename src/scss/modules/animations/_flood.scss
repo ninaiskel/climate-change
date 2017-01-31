@@ -2,7 +2,7 @@
 	width: 320px;
 
 	@include breakpoint('small-big') {
-		margin:20px;
+		margin:20px 0;
 	}
 }
 

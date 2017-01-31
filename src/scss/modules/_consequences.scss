@@ -67,11 +67,19 @@
 	width: 140px;
 	z-index: 1;
 	position: relative;
+
+	@include breakpoint('small-small') {
+		width: 100px;
+	}
 }
 
 //storm 
 .storm {
 	width: 320px;
+
+	@include breakpoint('small-small') {
+		width: 220px;
+	}
 }
 
 

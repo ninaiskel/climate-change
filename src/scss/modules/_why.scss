@@ -22,6 +22,10 @@
 	@include breakpoint('small-big') {
 		width: 300px;
 	}
+
+	@include breakpoint('small-small') {
+		width: 220px;
+	}
 }
 
 .bubbles {

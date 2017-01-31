@@ -35,9 +35,18 @@
 		margin-bottom: 80px;
 	}
 
-	@include breakpoint('>=small<=medium') {
+	@include breakpoint('medium') {
 		margin-bottom: 180px;
 	}
+
+	@include breakpoint('small') {
+		margin-bottom: 114px;
+	}
+
+	@include breakpoint('small-small') {
+		margin-bottom: 138px;
+	}
+
 }
 
 .line-medium {
