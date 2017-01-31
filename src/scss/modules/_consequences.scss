@@ -41,7 +41,33 @@
 	}
 }
 
+// ice
+.wrap-ices {
+	position: relative;
+    top: -30px;
+    z-index: 0;
+}
 
+.ice-bear {
+	position: relative;
+	display: block;
+    margin: 0 auto;
+}
+
+.ice-up {
+	z-index: 1
+}
+
+.ice-down {
+	top: -50px;
+	z-index: 0;
+}
+
+.bear-up {
+	width: 140px;
+	z-index: 1;
+	position: relative;
+}
 
 
 

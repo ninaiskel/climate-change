@@ -1,0 +1,58 @@
+.head-bear {
+	transform: translate(25px,3px) rotate(0);
+	animation: head-bear 4s ease infinite;
+}
+
+@keyframes head-bear {
+	50% {
+		transform: translate(25px,3px)  rotate(3.6deg);
+	}
+}
+
+.eyes-bear {
+	opacity: 1;
+	transition: 1s easy all;
+	animation: eyes-bear 3s ease infinite;
+}
+
+@keyframes eyes-bear {
+	10% {
+		opacity: 0;
+	}
+
+	20% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 1;
+	}
+
+	95% {
+		opacity: 0;
+	}
+}
+
+.ice-down {
+	transform: translate(-6px, -2px);
+	animation: ice-down 4s ease infinite;
+}
+
+@keyframes ice-down {
+	50% {
+		transform: translate(6px, 2px);
+	}
+}
+
+.ice-up {
+	transform: translate(-4px);
+	animation: ice-up 4s ease infinite;
+}
+
+@keyframes ice-up {
+	50% {
+		transform: translateX(4px);
+	}
+}
+
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="308px" height="77px" viewBox="0 0 308 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ice-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M154.944791,154.942857 C240.517538,154.942857 309.886681,85.5717802 309.886681,0 L0,0 C0,85.5717802 69.3701099,154.942857 154.944791,154.942857 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bear" transform="translate(-1.000000, -112.000000)">
+            <g id="wrap-ice" transform="translate(0.000000, 108.307692)">
+                <g id="ice-up" transform="translate(0.000000, -0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="path-1"></g>
+                    <g id="Page-1" mask="url(#mask-2)">
+                        <g transform="translate(-6.000000, 3.000000)" id="Group">
+                            <g transform="translate(0.197802, 0.868132)">
+                                <polygon id="Fill-16" fill="#D4F4FF" fill-rule="nonzero" points="28.112153 25.2927473 27.7325832 24.2228571 26.6070533 24.1410989 26.6070533 53.0747253 27.0551565 53.1810989 41.5438284 59.96 41.5438284 14.8356044"></polygon>
+                                <polygon id="Fill-17" fill="#BBE8F2" fill-rule="nonzero" points="0.247686877 22.4038681 0.247686877 46.9401319 0.0587806033 47.0895824 0.247686877 47.1335385 0.247686877 47.2821099 1.01034104 47.2487033 26.6067018 53.0746374 26.6067018 24.1418901"></polygon>
+                                <polygon id="Fill-18" fill="#BBE8F2" fill-rule="nonzero" points="52.9880341 5.56061538 41.5438284 14.8353407 41.5438284 59.9597363 42.1219695 60.3905055 119.742239 64.8757802 119.742239 20.6384176"></polygon>
+                                <polygon id="Fill-19" fill="#BBE8F2" fill-rule="nonzero" points="229.612325 24.6153846 191.789774 24.6153846 191.789774 76.5520879 193.25885 76.7771429 255.930044 61.0751648 255.930044 19.9252747"></polygon>
+                                <polygon id="Fill-20" fill="#D4F4FF" fill-rule="nonzero" points="184.519255 24.6153846 137.823381 24.6153846 119.741976 20.6391209 119.741976 64.8756044 121.537903 64.9793407 191.78995 76.5520879 191.78995 24.6153846"></polygon>
+                                <polygon id="Fill-21" fill="#D4F4FF" fill-rule="nonzero" points="255.930308 19.9255385 255.930308 61.0745495 256.153481 61.0464176 316.579765 38.7607033 317.153513 13.8824615 297.219947 19.0701538 291.737272 13.6196044"></polygon>
+                                <polygon id="Fill-22" fill="#FEFEFF" fill-rule="nonzero" points="184.518991 -0.000263736264 137.823996 -0.000263736264 53.047254 -0.000263736264 0.269476996 22.3461099 26.7611657 28.303033 42.1811894 35.5118242 121.957627 40.1008352 193.585614 51.8986374 256.261201 36.1685275 317.180399 13.8819341 291.84675 7.92413187 229.613116 -0.000263736264"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
