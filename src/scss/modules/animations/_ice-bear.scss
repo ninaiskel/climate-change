@@ -45,8 +45,8 @@
 }
 
 .ice-up {
-	transform: translate(-4px);
-	animation: ice-up 4s ease infinite;
+	transform: translateX(-4px);
+	animation: ice-up 3s ease infinite;
 }
 
 @keyframes ice-up {
