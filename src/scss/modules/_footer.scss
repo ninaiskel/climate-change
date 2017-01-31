@@ -12,5 +12,19 @@
 }
 
 .copyright {
-	margin: 50px 0;
+	padding: 50px 0;
+
+	&-text {
+		display: inline-block;
+		margin-right: 20px;
+	}
+}
+
+.link-web {
+	text-decoration: underline;
+}
+.btn-up {
+	padding-left: 6px;
+	vertical-align: middle;
+	display: inline-block;
 }
