@@ -7,39 +7,55 @@
     @include breakpoint('xlarge') {
         max-width: 1400px;
     }
+}
+
+.col-2 {
+    box-sizing: border-box;
+    flex-basis: 48%;
 
     @include breakpoint('small-big') {
-    	display: block;
-    	padding: 0 20px;
-  	}
+        flex-basis: 96%;
+        margin: 0 4%;
+    }
+}
 
-    @include breakpoint('small-small') {
-        padding: 0 10px;
+.col-3 {
+    flex-basis: 31%;
+
+    @include breakpoint('small-big') {
+        flex-basis: 96%;
     }
 }
 
 .col {
-    box-sizing: border-box;
-    flex: 1;
-    margin: 0 20px;
-
-    @include breakpoint('small-big') {
-        margin: 0 0px;
+    margin: 0 1%;
+    
+     @include breakpoint('small-big') {
+        margin: 0 4%;
     }
+}
+
+
+.col-4 {
+    flex-basis: 23%;
+    margin: 0 1%;
+
+    @include breakpoint('>=small<=medium') {
+        flex-basis: 46%;
+    }
+    
 }
 
 .col-full {
-    width: 100%;
-    margin: 0 20px;
+    flex-basis: 98%;
+    margin: 0 1%;
 
-    @include breakpoint('small-big') {
-        margin: 0 0px;
+     @include breakpoint('small-big') {
+        flex-basis: 96%;
+        margin: 0 4%;
     }
 }
 
-.col-left {
-    width: 50%;
-    margin: 0 20px;
-}
+
 
 
