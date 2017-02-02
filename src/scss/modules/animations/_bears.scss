@@ -1,16 +1,32 @@
 .bears {
-	animation: bears-move 10s linear infinite;
-	transform:  translateX(-100px);
+	animation: bears-move 8s linear infinite;
+	transform:  translateX(-80px);
+
+	@include breakpoint('medium') {
+		transform:  translateX(0px);
+	}
+
+	@include breakpoint('small') {
+		transform:  translateX(0px);
+	}
 }
 
 @keyframes bears-move {
-
+	
 	50% {
-		transform:  translateX(100px) 
-	}
+		transform:  translateX(80px);
+		
+		@include breakpoint('medium') {
+			transform:  translateX(0px);
+		}
 
+		@include breakpoint('small') {
+			transform:  translateX(0px);
+		}
+	}
 }
 
+//ice
 .ice-under {
 	transform: translate(116px, 120px);
 }

@@ -9,4 +9,12 @@
 
 .bears {
 	width: 500px;
+
+	@include breakpoint('small-big') {
+		width: 360px;
+	}
+
+	@include breakpoint('small-small') {
+		width: 280px;
+	}
 }

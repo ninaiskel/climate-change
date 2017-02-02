@@ -1,6 +1,6 @@
 .background-wave {
  	animation: wave 4s linear infinite;
-	transform: translate(-6px, -2px);
+	transform: translate(-2px, -2px);
 }
   
 @keyframes wave {
@@ -9,7 +9,7 @@
 	}
 
 	50% {
-		transform: translate(-4px, 2px); 
+		transform: translate(-2px, 2px); 
 	}
 
 	75% {
@@ -17,6 +17,6 @@
 	}
 
 	100% {
-		transform: translate(-6px, -2px); 
+		transform: translate(-2px, -2px); 
 	}
 }

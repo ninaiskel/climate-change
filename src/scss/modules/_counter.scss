@@ -26,10 +26,13 @@
 }
 
 .background-wave {
-	width: 110%;
+	width: 100%;
 	overflow-x: hidden;
 	position: relative;
 	z-index: 2;
 	top: 10px;
+	box-sizing: border-box;
 }
+
+
 
