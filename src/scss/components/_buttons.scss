@@ -45,7 +45,7 @@
 	    transition-timing-function: ease-out; 
 	}
 
-	&:active {
+	&:active, &:hover {
 		color: white;
 		border-color: white;
 
@@ -65,8 +65,6 @@
 		}
 	}
 }
-
-
 
 .button-small {
 	@include sizes(50px);

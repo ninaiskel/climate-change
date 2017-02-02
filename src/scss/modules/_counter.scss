@@ -24,3 +24,12 @@
 		margin-bottom: 20px;
 	}
 }
+
+.background-wave {
+	width: 110%;
+	overflow-x: hidden;
+	position: relative;
+	z-index: 2;
+	top: 8px;
+}
+

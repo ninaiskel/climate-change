@@ -9,7 +9,11 @@
 }
 
 .wrap-consecuences {
-	margin: 80px 0;
+	margin: 50px 0;
+
+	@include breakpoint('>=small<=medium') {
+		margin: 40px 0;
+	}
 }
 
 .description {
@@ -41,6 +45,18 @@
 	}
 }
 
+//flood
+.flood {
+	width: 320px;
+	position: relative;
+	top: -20px;
+
+	@include breakpoint('small-big') {
+		margin:20px 0;
+		width: 300px;
+	}
+}
+
 // ice
 .wrap-ices {
 	position: relative;
@@ -55,12 +71,19 @@
 }
 
 .ice-up {
-	z-index: 1
+	z-index: 1;
+	@include breakpoint('small') {
+		width: 280px;
+	}
 }
 
 .ice-down {
 	top: -50px;
 	z-index: 0;
+
+	@include breakpoint('small') {
+		width: 280px;
+	}
 }
 
 .bear-up {
@@ -68,8 +91,8 @@
 	z-index: 1;
 	position: relative;
 
-	@include breakpoint('small-small') {
-		width: 100px;
+	@include breakpoint('small') {
+		width: 120px;
 	}
 }
 
@@ -77,8 +100,8 @@
 .storm {
 	width: 320px;
 
-	@include breakpoint('small-small') {
-		width: 220px;
+	@include breakpoint('small') {
+		width: 280px;
 	}
 }
 

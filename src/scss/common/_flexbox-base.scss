@@ -1,11 +1,11 @@
 .flex-grid {
     display: flex;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1180px;
     flex-wrap: wrap;
 
     @include breakpoint('xlarge') {
-        max-width: 1500px;
+        max-width: 1400px;
     }
 
     @include breakpoint('small-big') {
@@ -13,7 +13,7 @@
     	padding: 0 20px;
   	}
 
-    @include breakpoint('small-smal') {
+    @include breakpoint('small-small') {
         padding: 0 10px;
     }
 }
@@ -35,6 +35,11 @@
     @include breakpoint('small-big') {
         margin: 0 0px;
     }
+}
+
+.col-left {
+    width: 50%;
+    margin: 0 20px;
 }
 
 

@@ -1,10 +1,4 @@
-.flood {
-	width: 320px;
 
-	@include breakpoint('small-big') {
-		margin:20px 0;
-	}
-}
 
 .house-flood {
 	transform: translateY(20px);
