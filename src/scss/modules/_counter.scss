@@ -1,5 +1,5 @@
 .counter {
-	background: linear-gradient(map-get($colors, third), map-get($colors, second));
+	background: linear-gradient(map-get($colors, third), lighten-color(map-get($colors, second), 10%));
 	padding-bottom: 150px;
 
 	@include breakpoint('small-big') {
@@ -30,6 +30,6 @@
 	overflow-x: hidden;
 	position: relative;
 	z-index: 2;
-	top: 8px;
+	top: 10px;
 }
 

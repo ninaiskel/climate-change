@@ -1,5 +1,5 @@
 .why {
-	background: linear-gradient(map-get($colors, second), map-get($colors, second));
+	background: linear-gradient(lighten-color(map-get($colors, second), 10%), map-get($colors, second));
 }
 
 .list-factors {
