@@ -1,19 +1,26 @@
 .background-wave {
  	animation: wave 3s linear infinite;
 	transform: translate(-1px, -3px);
+
+	@include breakpoint('small-big') {
+		transform: translate(0, -3px);
+	}
 }
   
 @keyframes wave {
 	25% {
-		transform: translate(1px, -3px); 
+		transform: translate(1px, -3px);
+
 	}
 
 	50% {
 		transform: translate(-1px, 3px); 
+
 	}
 
 	75% {
 		transform: translate(1px, 3px); 
+
 	}
 
 	100% {

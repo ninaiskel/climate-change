@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1481px" height="199px" viewBox="0 0 1481 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1393px" height="199px" viewBox="0 0 1393 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>waves</title>
+    <title>Shape</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="49.9797297%" y1="-0.00585774057%" x2="49.9797297%" y2="100.02887%" id="linearGradient-1">
@@ -10,8 +10,8 @@
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="waves" fill="url(#linearGradient-1)" fill-rule="nonzero">
-            <path d="M635.9,0 C635.9,0 560.4,21 495,0 C495,0 432.2,33.4 382.2,2.9 C382.2,2.9 324.5,23.2 262.5,2.9 C262.5,2.9 197.1,25.4 134.3,2.9 C134.3,2.9 64.4,22.4 0.9,5.1 L0.9,199 L1480.9,199 L1480.9,9.7 C1464,14.1 1427.7,19.7 1385.3,2.9 C1385.3,2.9 1327.6,23.2 1265.6,2.9 C1265.6,2.9 1200.2,25.4 1137.4,2.9 C1137.4,2.9 1061.9,23.9 996.5,2.9 C996.5,2.9 942.2,23.2 883.6,0 C883.8,0 826.1,20.3 764.1,0 C764.1,0 698.7,22.5 635.9,0 Z"></path>
+        <g id="waves" transform="translate(-51.000000, -1.000000)" fill-rule="nonzero" fill="url(#linearGradient-1)">
+            <path d="M635,-3.37507799e-14 C635,-3.37507799e-14 559.5,21 494.1,-3.37507799e-14 C494.1,-3.37507799e-14 431.3,33.4 381.3,2.9 C381.3,2.9 323.6,23.2 261.6,2.9 C261.6,2.9 196.2,25.4 133.4,2.9 C133.4,2.9 83.5669223,14.2062978 61.5,9.7 C14,-3.37507799e-14 38.5,5.1 0,5.1 L0,199 L1480,199 L1480,9.7 C1446.5,-3.37507799e-14 1426.8,19.7 1384.4,2.9 C1384.4,2.9 1326.7,23.2 1264.7,2.9 C1264.7,2.9 1199.3,25.4 1136.5,2.9 C1136.5,2.9 1061,23.9 995.6,2.9 C995.6,2.9 941.3,23.2 882.7,-3.37507799e-14 C882.9,-3.37507799e-14 825.2,20.3 763.2,-3.37507799e-14 C763.2,-3.37507799e-14 697.8,22.5 635,-3.37507799e-14 Z" id="Shape"></path>
         </g>
     </g>
 </svg>

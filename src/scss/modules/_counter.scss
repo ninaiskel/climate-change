@@ -38,5 +38,21 @@
 	box-sizing: border-box;
 }
 
+.back-wave-big {
+	display: block;
+
+	@include breakpoint('small-big') {
+		display: none;
+	}
+}
+
+.back-wave-small {
+	display: none;
+
+	@include breakpoint('small-big') {
+		display: block;
+	}
+}
+
 
 

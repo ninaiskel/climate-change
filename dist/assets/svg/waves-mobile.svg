@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1103px" height="199px" viewBox="0 0 1103 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="49.9797297%" y1="-0.00585774057%" x2="49.9797297%" y2="100.02887%" id="linearGradient-1">
+            <stop stop-color="#54D0ED" offset="0%"></stop>
+            <stop stop-color="#1788B2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="waves" transform="translate(-377.000000, -5.000000)" fill-rule="nonzero" fill="url(#linearGradient-1)">
+            <path d="M635,4 C635,4 559.5,25 494.1,4 C494.1,4 418.5,-6.5 381.3,6.9 C381.3,6.9 323.6,27.2 261.6,6.9 C261.6,6.9 196.2,29.4 133.4,6.9 C133.4,6.9 83.5669223,18.2062978 61.5,13.7 C14,4 38.5,9.1 0,9.1 L0,203 L1480,203 L1480,13.7 C1446.5,4 1426.8,23.7 1384.4,6.9 C1384.4,6.9 1326.7,27.2 1264.7,6.9 C1264.7,6.9 1199.3,29.4 1136.5,6.9 C1136.5,6.9 1061,27.9 995.6,6.9 C995.6,6.9 941.3,27.2 882.7,4 C882.9,4 825.2,24.3 763.2,4 C763.2,4 697.8,26.5 635,4 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

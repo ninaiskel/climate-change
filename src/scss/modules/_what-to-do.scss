@@ -42,6 +42,10 @@
 		top: -100px;
 	}
 
+	@include breakpoint('small') {
+		top: -70px;
+	}
+
 	@include breakpoint('small-small') {
 		top: -50px;
 	}

@@ -67,11 +67,44 @@
 	}
 }
 
-.button-small {
-	@include sizes(50px);
-	padding: 10px;
-	border: white 2px solid;
+.btn-small {
+
+	transition: all 0.8s linear;
+
+	&:hover {
+		svg {
+
+			circle {
+				stroke-width: 2.8;
+			}
+		}
+
+		.up {
+			circle {
+				fill: map-get($colors, third);
+			}
+		}
+
+		.facebook {
+			circle {
+				fill: map-get($colors, facebook);
+			}
+		}
+
+		.twitter{
+			circle {
+				fill: map-get($colors, twitter);
+			}	
+
+		}
+		
+	}
+	
 }
+
+
+
+
 
 
 

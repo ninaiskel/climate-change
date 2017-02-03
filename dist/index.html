@@ -12,10 +12,11 @@
 		<title>Climate change</title>
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=News+Cycle:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Alegreya:400,700,900i" rel="stylesheet">
 	</head>
 
 	<body>
-		<header class="header">
+		<header class="header" id="">
 			<nav>
 				<ul class="menu">
 					<li class="menu-list">
@@ -46,7 +47,8 @@
 			</div>
 			
 			<div class="background-wave">
-				<img class="back-wave" src="assets/svg/waves.svg" alt="waves">
+				<img class="back-wave back-wave-big" src="assets/svg/waves.svg" alt="waves">
+				<img class="back-wave back-wave-small" src="assets/svg/waves-mobile.svg" alt="waves">
 			</div>
 		</div>
 		
@@ -82,11 +84,11 @@
 					<div class="counter-list">
 						<div class="counter-list-title">
 							<span class="line-rigth line-counter"></span>
-							<h1 class="counter-title">178<span class="counter-length">milimetros</span></h1>
+							<h1 class="counter-title">118<span class="counter-length">gigatoneladas</span></h1>
 							
 						</div>
 						<p class="counter-list-content">
-							Es el aumento del nivel del mar del planetas en los últimos 100 años.
+							De hielo por año ha estado perdiendo el continente de la Antártida desde 2002
 						</p>
 					</div>
 				</div>
@@ -183,26 +185,13 @@
 			</div>
 		</section>
 		
-		<section class="section temperature">
+		<section class="section white">
 			<div class="flex-grid">
-				<div class="col col-3">
-					<div class="list-statics">
-						<span class="line-rigth line-medium"></span>
-						Según la NASA, el año 2015 se sitúa como el más cálido registrado
-					</div>
+				<div class="wrap-center">
+					<p class="text-ice">El 10 de noviembre de 2016, científicos de la misión IceBridge de la NASA fotografiaron una visión oblicua de una grieta masiva en la plataforma de hielo <a class="link" href="https://www.nasa.gov/image-feature/rift-in-antarcticas-larsen-c-ice-shelf">Larsen C de la Península Antártica. </a></p>
+					<p class="text-ice">Cuando los estantes de hielo se derrumban, el hielo se acelera hacia el océano, donde luego se suma al aumento del nivel del mar. Una plataforma de hielo más pequeña se desintegró en 2002 después de desarrollar una grieta similar a la que ahora está creciendo en Larsen C</p>
 				</div>
-				<div class="col col-3">
-					<div class="list-statics">
-						<span class="line-rigth line-medium"></span>
-						Según la NASA, el año 2015 se sitúa como el más cálido registrado
-					</div>
-				</div>
-				<div class="col col-3">
-					<div class="list-statics">
-						<span class="line-rigth line-medium"></span>
-						Según la NASA, el año 2015 se sitúa como el más cálido registrado
-					</div>
-				</div>
+					
 			</div>
 			<div class="wrap-img">
 				<img class="img-background img-ice-big" src="assets/svg/background-ice-big.svg" alt="">
@@ -218,7 +207,7 @@
 					enable-background="new 0 0 480 208" 
 					xml:space="preserve">
 					<g>
-					    <g class="ice-under" transform="translate(110px, 122px)" opacity="0.4">
+					    <g class="ice-under" opacity="0.4">
 					      <polygon fill="#D4F4FF" points="32 29.8 31.6 28.5 30.3 28.4 30.3 61.7 30.8 61.8 47.3 69.6 47.3 17.7 "/>
 					      <polygon fill="#BBE8F2" fill-opacity="0.5" points="0.3 9.3 0.3 54.6 0.1 54.8 0.3 54.8 0.3 55 1.1 55 30.3 61.7 30.3 28.4 "/>
 					      <polygon fill="#BBE8F2" fill-opacity="0.5" points="60.3 7.1 47.3 17.7 47.3 69.6 47.9 70.1 136.3 75.2 136.3 24.4 "/>
@@ -591,17 +580,23 @@
 						<li class="links-list">
 							<span class="drop">
 								<img src="assets/svg/drop.svg" alt="">
-							</span><a href="http://newsroom.unfccc.int/es/">Newsroom</a>
+							</span>
+							<a target="_blank" 
+								href="http://newsroom.unfccc.int/es/">Newsroom</a>
 						</li>
 						<li class="links-list">
 							<span class="drop">
 								<img src="assets/svg/drop.svg" alt="">
-							</span><a href="https://www.climaterealityproject.org/">Climate reality project</a>
+							</span>
+							<a target="_blank" 
+								href="https://www.climaterealityproject.org/">Climate reality project</a>
 						</li>
 						<li class="links-list">
 							<span class="drop">
 								<img src="assets/svg/drop.svg" alt="">
-							</span><a href="http://newsroom.unfccc.int/es/acuerdo-de-paris/">Acuerdo de París</a>
+							</span>
+							<a target="_blank" 
+								href="http://newsroom.unfccc.int/es/acuerdo-de-paris/">Acuerdo de París</a>
 						</li>
 					</ul>
 				</div>
@@ -615,20 +610,58 @@
 				<div class="col-full">
 					<h2 class="title title-share">comparte en tus redes sociales</h2>
 					<div class="share-links">
-						<a href="" class="share-link">
-							<img src="assets/svg/twitter.svg" alt="" class="twitter">
+						<a  
+						 	href="https://twitter.com/share"
+                            target="_blank"
+                            data-url="jessica.com"
+							class="btn-small share-link">
+							<svg 
+								class="twitter" 
+								height="52px" 
+								width="52px" 
+								version="1.1" 
+								viewBox="0 0 52 52">
+							 	<g id="Page-1" fill-rule="evenodd" fill="none">
+							  		<g id="twitter" transform="translate(1 1)">
+							  			<circle id="Oval" stroke-width="2" cy="25" stroke="#fff" cx="25" r="25"/>
+							   			<path id="Shape" fill-rule="nonzero" fill="#F4F4F4" d="m29.288 13.276c-2.636 0.928-4.302 3.319-4.113 5.938l0.064 1.01-1.056-0.123c-3.838-0.474-7.192-2.082-10.041-4.786l-1.392-1.339-0.358 0.989c-0.76 2.207-0.274 4.538 1.308 6.103 0.843 0.867 0.653 0.99-0.802 0.474-0.506-0.164-0.949-0.288-0.99-0.227-0.148 0.145 0.358 2.02 0.759 2.763 0.549 1.031 1.665 2.041 2.889 2.639l1.034 0.474-1.223 0.02c-1.181 0-1.224 0.021-1.096 0.454 0.421 1.341 2.088 2.764 3.944 3.383l1.307 0.433-1.138 0.659c-1.687 0.95-3.671 1.484-5.653 1.525-0.952 0.021-1.731 0.104-1.731 0.165 0 0.205 2.575 1.359 4.072 1.815 4.492 1.341 9.83 0.762 13.838-1.526 2.849-1.629 5.697-4.866 7.025-8.001 0.717-1.669 1.435-4.721 1.435-6.184 0-0.95 0.062-1.073 1.245-2.207 0.696-0.659 1.348-1.382 1.476-1.588 0.21-0.391 0.189-0.391-0.887-0.041-1.793 0.617-2.046 0.536-1.159-0.392 0.654-0.66 1.434-1.856 1.434-2.205 0-0.062-0.317 0.04-0.675 0.227-0.38 0.206-1.224 0.515-1.858 0.701l-1.138 0.35-1.034-0.68c-0.57-0.372-1.371-0.784-1.793-0.908-1.077-0.286-2.723-0.246-3.693 0.085z"/>
+							  		</g>
+							 	</g>
+							</svg>
 						</a>
-						<a href="" class="share-link">
-							<img src="assets/svg/facebook.svg" alt="" class="facebook">
+						<a href="http://www.facebook.com/sharer.php?u=link.com" class="btn-small share-link">
+							<svg 
+								class="facebook" 
+								xmlns="http://www.w3.org/2000/svg" 
+								height="53px" 
+								width="52px" 
+								version="1.1" 
+								viewBox="0 0 52 53">
+								<g id="Clima" transform="translate(-725 -6338)">
+								   <g id="background4" transform="translate(-127 4906)">
+								    <g id="facebook" transform="translate(853 1433)">
+								     <circle fill="none" id="Oval" stroke-width="2" cy="25.775" stroke="#fff" cx="25" r="25"/>
+								     <path id="Shape" fill="#F4F4F4" d="m32.667 17.215h-4.761c-0.563 0-1.192 0.741-1.192 1.731v3.439h5.953v4.9h-5.953v14.715h-5.619v-14.716h-5.095v-4.9h5.095v-2.884c0-4.136 2.87-7.5 6.811-7.5h4.761v5.215z"/>
+								    </g>
+								   </g>
+								</g>
+							</svg>
 						</a>
 					</div>
 					<div class="copyright">
 						<p class="copyright-text">Creado por 
-							<a class="link-web" href="#">Jessica Aristimuño</a>
+							<a class="link" href="ninaiskel.github.io/Web-Jess/">Jessica Aristimuño</a>
 						</p>
 						<a href="#">subir 
-							<span class="btn-up">
-								<img src="assets/svg/up.svg" alt="">
+							<span class="btn-small btn-up">
+								<svg class="up" xmlns="http://www.w3.org/2000/svg" height="32px" width="32px" version="1.1" viewBox="0 0 32 32">
+								 	<g id="Page-1" fill-rule="evenodd" fill="none">
+								  	<g id="up" transform="translate(1 1)">
+								   	<circle id="Oval" stroke-width="2" cy="15" stroke="#fff" cx="15" r="15"/>
+								   	<path id="Shape" fill-rule="nonzero" fill="#fff" d="m15.004 22c0.239 0 0.486-0.088 0.669-0.27l6.047-5.788c0.373-0.358 0.373-0.932 0-1.289-0.374-0.358-0.973-0.358-1.346 0l-4.419 4.237v-10.979c0-0.5062-0.423-0.911-0.951-0.911-0.529 0-0.952 0.4048-0.952 0.9108v10.979l-4.4258-4.237c-0.3735-0.358-0.9725-0.358-1.3461 0-0.3735 0.357-0.3735 0.931 0 1.289l6.0539 5.788c0.183 0.176 0.43 0.27 0.67 0.27z" transform="translate(15 14.5) rotate(180) translate(-15 -14.5)"/>
+									</g>
+								 	</g>
+								</svg>
 							</span>
 						</a>
 					</div>
