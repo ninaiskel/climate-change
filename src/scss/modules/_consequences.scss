@@ -2,6 +2,10 @@
 	background: linear-gradient(map-get($colors, second), lighten-color(map-get($colors, second), 10%));
 	padding-bottom: 0;
 	padding-top: 60px;
+
+	@include breakpoint('>=small<=medium') {
+		padding-top: 40px;
+	}
 	
 	.title {
 		margin-bottom: 15px;
@@ -47,13 +51,13 @@
 
 //flood
 .flood {
-	width: 320px;
 	position: relative;
 	top: -20px;
+	width: 320px;
 
 	@include breakpoint('small-big') {
-		margin:20px 0;
-		width: 300px;
+		margin: 58px 0 20px;
+		width: 270px;
 	}
 }
 
@@ -72,8 +76,8 @@
 
 .ice-up {
 	z-index: 1;
-	@include breakpoint('small') {
-		width: 280px;
+	@include breakpoint('small-big') {
+		width: 270px;
 	}
 }
 
@@ -81,8 +85,8 @@
 	top: -50px;
 	z-index: 0;
 
-	@include breakpoint('small') {
-		width: 280px;
+	@include breakpoint('small-big') {
+		width: 270px;
 	}
 }
 
@@ -91,7 +95,7 @@
 	z-index: 1;
 	position: relative;
 
-	@include breakpoint('small') {
+	@include breakpoint('small-big') {
 		width: 120px;
 	}
 }
@@ -100,8 +104,13 @@
 .storm {
 	width: 320px;
 
-	@include breakpoint('small') {
+	@include breakpoint('small-big') {
 		width: 280px;
+		margin-top: 60px;
+	}
+
+	@include breakpoint('small-small') {
+		width: 250px;
 	}
 }
 

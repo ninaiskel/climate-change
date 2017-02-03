@@ -1,8 +1,6 @@
-
-
 .house-flood {
-	transform: translateY(20px);
 	animation: house-flood 3s linear infinite;
+	transform: translateY(20px);
 }
 
 @keyframes house-flood {
@@ -12,8 +10,8 @@
 }
 
 .tree-flood {
-	transform: translate(0,0);
 	animation: tree-flood 2s linear infinite;
+	transform: translate(0,0);
 }
 
 @keyframes tree-flood {
@@ -23,8 +21,8 @@
 }
 
 .house {
-	transform: translateX(0px);
 	animation: house 2.6s linear infinite;
+	transform: translateX(0px);
 }
 
 @keyframes house {

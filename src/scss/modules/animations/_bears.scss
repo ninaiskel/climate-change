@@ -2,26 +2,39 @@
 	animation: bears-move 8s linear infinite;
 	transform:  translateX(-80px);
 
-	@include breakpoint('medium') {
-		transform:  translateX(0px);
+	@include breakpoint('xlarge') {
+		transform:  translateX(-100px);
 	}
 
-	@include breakpoint('small') {
-		transform:  translateX(0px);
+	@include breakpoint('medium') {
+		transform:  translateX(-40px);
+	}
+
+	@include breakpoint('small-big') {
+		transform:  translateX(-30px);
+	}
+
+	@include breakpoint('small-small') {
+		transform:  translateX(-30px);
 	}
 }
 
 @keyframes bears-move {
 	
 	50% {
-		transform:  translateX(80px);
+		transform:  translateX(60px);
+
+
+		@include breakpoint('xlarge') {
+			transform:  translateX(100px);
+		}
 		
 		@include breakpoint('medium') {
-			transform:  translateX(0px);
+			transform:  translateX(-10px);
 		}
 
-		@include breakpoint('small') {
-			transform:  translateX(0px);
+		@include breakpoint('small-big') {
+			transform:  translateX(-2px);
 		}
 	}
 }

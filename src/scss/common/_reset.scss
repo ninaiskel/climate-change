@@ -3,6 +3,7 @@ body {
 	color: map-get($colors, text);
 	font-size: 18px;
 	overflow-x: hidden;
+	box-sizing: border-box;
 
 	@include breakpoint('small-big') {
 		font-size: 16px;

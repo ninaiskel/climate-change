@@ -39,12 +39,12 @@
 		margin-bottom: 180px;
 	}
 
-	@include breakpoint('small') {
-		margin-bottom: 114px;
+	@include breakpoint('small-big') {
+		margin-bottom: 90px;
 	}
 
 	@include breakpoint('small-small') {
-		margin-bottom: 138px;
+		margin-bottom: 137px;
 	}
 
 }

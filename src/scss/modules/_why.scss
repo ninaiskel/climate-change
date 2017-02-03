@@ -22,10 +22,16 @@
 	}
 
 	@include breakpoint('small-big') {
-		width: 300px;
+		width: 280px;
 	}
 
 	@include breakpoint('small-small') {
+		width: 260px;
+	}
+}
+
+.one-ice {
+	@include breakpoint('small-big') {
 		width: 280px;
 	}
 }

@@ -29,5 +29,14 @@
 }
 
 .global {
-	width: 60%;
+	width: 320px;
+
+	@include breakpoint('small-big') {
+		margin-bottom: 60px;
+		width: 250px;
+	}
+
+	@include breakpoint('small-big') {
+		width: 220px;
+	}
 }

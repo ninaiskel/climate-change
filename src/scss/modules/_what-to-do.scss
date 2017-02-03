@@ -7,6 +7,10 @@
 	
 	&-list {
 		padding: 80px 0;
+
+		@include breakpoint('small-big') {
+			padding: 50px 0;
+		}
 	}
 
 	&-description {
@@ -19,6 +23,12 @@
 		}
 	}
 
+	&-item {
+		@include breakpoint('small-big') {
+			margin-bottom: 40px;
+		}
+	}
+
 }
 
 .ocean {
@@ -28,18 +38,16 @@
 		top: -140px;
 	}
 
-	@include breakpoint('small') {
+	@include breakpoint('small-big') {
 		top: -100px;
 	}
 
 	@include breakpoint('small-small') {
 		top: -50px;
 	}
-
 }
 
 .wrap-img-item {
 	width: 100%;
 	text-align: center;
 }
-

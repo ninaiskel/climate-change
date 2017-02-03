@@ -1,6 +1,16 @@
 .ilustration {
 	background: map-get($colors, second);
 	padding: 150px 0;
+
+
+	@include breakpoint('medium') {
+		padding: 100px 0;
+	}
+
+	@include breakpoint('small-big') {
+		padding: 60px 0;
+	}
+
 }
 
 .wrap-img-bears {
@@ -11,7 +21,7 @@
 	width: 500px;
 
 	@include breakpoint('small-big') {
-		width: 360px;
+		width: 300px;
 	}
 
 	@include breakpoint('small-small') {

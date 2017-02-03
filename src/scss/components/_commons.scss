@@ -1,3 +1,7 @@
 .section {
 	padding-top: 40px;
+
+	@include breakpoint('small-big') {
+		padding-top: 10px;
+	}
 }

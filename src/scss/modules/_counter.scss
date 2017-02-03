@@ -2,8 +2,12 @@
 	background: linear-gradient(map-get($colors, third), lighten-color(map-get($colors, second), 10%));
 	padding-bottom: 150px;
 
-	@include breakpoint('small-big') {
+	@include breakpoint('medium') {
 		padding-bottom: 80px;
+	}
+
+	@include breakpoint('small-big') {
+		padding-bottom: 50px;
 	}
 }
 

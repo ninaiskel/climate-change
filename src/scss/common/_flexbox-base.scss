@@ -15,7 +15,6 @@
 
     @include breakpoint('small-big') {
         flex-basis: 96%;
-        margin: 0 4%;
     }
 }
 
@@ -40,7 +39,7 @@
     flex-basis: 23%;
     margin: 0 1%;
 
-    @include breakpoint('>=small<=medium') {
+    @include breakpoint('small-big') {
         flex-basis: 46%;
     }
     
