@@ -11,9 +11,11 @@
 }
 
 .wave-small {
-	width: 330px;
 	height: auto;
 	margin-bottom: 50px;
+	position: relative;
+	width: 330px;
+	z-index: 2;
 
 	@include breakpoint('medium') {
 		margin-bottom: 90px;
@@ -30,8 +32,31 @@
 
 .bubbles {
 	position: absolute;
-	top: 300px;
+	top: 400px;
 	right: 0;
+	z-index: 1;
+	width: 100%;
+
+	@include breakpoint('medium') {
+		top: 500px;
+	}
+
+	@include breakpoint('small-big') {
+		display: none;
+	}
+}
+
+.bubbles-m {
+	display: none;
+
+	@include breakpoint('small-big') {
+		display: block;
+		position: absolute;
+		top: 500px;
+		width: 100%;
+		z-index: 1;
+	}
+
 }
 
 
